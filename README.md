@@ -15,11 +15,14 @@ Người dùng đăng ký bằng `email` và `password`
 Thêm thông tin cá nhân như:
 - nickname
 - avatar
+- tuổi
+- giới tính
+- sở thích: list ra sẵn (`#football`, `#manga`, ...) để người dùng chọn
 - vài dòng giới thiệu bản thân (optional)
 
 ### Thuật toán tìm người lạ
 
-Thuật toán tìm người lạ phải hoàn toàn ngẫu nhiên.
+Thuật toán tìm người lạ là ngẫu nhiên theo filter sở thích, độ tuổi và giới tính
 
 ### Trong khi chat
 
