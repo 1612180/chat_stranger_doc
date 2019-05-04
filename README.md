@@ -6,7 +6,7 @@ Sử dụng app để chat với người lạ. Mỗi lần vào là ứng dụn
 
 Một số app tham khảo: [Azar](https://www.azar-web.com/#/home), [Chatvn](https://www.chatvn.me/)
 
-## Yêu cầu hệ thống
+## Yêu cầu
 
 ### Đăng ký
 
@@ -30,8 +30,20 @@ Chat 1-1, có thể thấy được username + avatar + giới thiệu bản th�
 
 Gửi được tin nhắn text, hỗ trợ thêm gửi ảnh, file, ... cho nhau
 
-Có nút next nếu cảm thấy nói chuyện không hợp
+Có thể next nếu cảm thấy nói chuyện không hợp
 
-Sau khi nhấn next hoặc người còn lại nhấn next, app tự động tìm người lạ khác để tiếp tục chat
+Sau khi chọn next hoặc người còn lại chọn next, app tự động tìm người lạ khác để tiếp tục chat
 
 Nội dung chat cũ sẽ bị huỷ
+
+## [Timeline](timeline.md)
+
+## Diagram
+
+### Activity diagram
+
+[Sign in](diagram/activity/sign_in.md)
+
+[Sign up](diagram/activity/sign_up.md)
+
+[Chat](diagram/activity/chat.md)
