@@ -51,3 +51,7 @@ Nội dung chat cũ sẽ bị huỷ
 ### Sequence diagram
 
 [Chat](diagram/sequence/chat.md)
+
+### Database diagram
+
+[Database](diagram/database/database.md)
