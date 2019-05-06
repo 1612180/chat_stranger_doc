@@ -2,8 +2,12 @@
 
 Tuần 1:
 
-- [ ] Bổ sung activity diagram và sequence diagram
-- [ ] Sơ đồ thiết kế database và class diagram
+- [ ] Sơ đồ thiết kế
+    - [x] Activity diagram
+    - [ ] Sequence diagram
+    - [ ] Database diagram
+    - [ ] Class diagram
+    - [ ] Architecture diagram
 - [ ] Tìm hiểu framework `gin`, `gorm`
 - [ ] Tìm hiểu CRUD database
 

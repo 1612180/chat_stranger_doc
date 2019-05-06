@@ -47,3 +47,7 @@ Nội dung chat cũ sẽ bị huỷ
 [Sign up](diagram/activity/sign_up.md)
 
 [Chat](diagram/activity/chat.md)
+
+### Sequence diagram
+
+[Chat](diagram/sequence/chat.md)
