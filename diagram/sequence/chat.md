@@ -4,29 +4,29 @@
 ```plantuml
 @startuml
 
-FrontendUser -> FrontendUser: Filter user to chat (by favorite, age, gender)
+Frontend -> Frontend: Filter user to chat (by favorite, age, gender)
 
 loop
-    FrontendUser -> Server: Send filter setting
+    Frontend -> Server: Send filter setting
     activate Server
 
-    FrontendUser -> Server: Request another user to chat
+    Frontend -> Server: Request another user to chat
 
     Server -> Database: Use algorithm + filter to find **match user**
-    activate Database
+    activate Server
 
     alt found 1 user ready to chat
         Database --> Server: Send **match user** info
-        Server --> FrontendUser: Response user info to chat
-        FrontendUser -> FrontendUser: Show chat screen with user
-        FrontendUser -> FrontendUser: Choose **Next** (to request another user)
+        Server --> Frontend: Response user info to chat
+        Frontend -> Frontend: Show chat screen with user
+        Frontend -> Frontend: Choose **Next** (to request another user)
     else found no one
         Database --> Server: Send error (no user ready)
-        Server --> FrontendUser: Send error
-        FrontendUser --> FrontendUser: Show error screen
+        Server --> Frontend: Send error
+        Frontend --> Frontend: Show error screen
         alt If want to quit
             break
-                FrontendUser -> FrontendUser: Quit
+                Frontend -> Frontend: Quit
             end
         end
     end
