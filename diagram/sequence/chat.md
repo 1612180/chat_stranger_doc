@@ -12,16 +12,19 @@ loop
 
     Frontend -> Server: Request another user to chat
 
-    Server -> Database: Use algorithm + filter to find **match user**
+    Server -> Database: Get all user ready with filter
     activate Server
 
+    Database --> Server: Send all user ready with filter
+
+    Server -> Server: Use algorithm to find **match user**
+    deactivate Server
+
     alt found 1 user ready to chat
-        Database --> Server: Send **match user** info
-        Server --> Frontend: Response user info to chat
+        Server --> Frontend: Response **match user** info to chat
         Frontend -> Frontend: Show chat screen with user
         Frontend -> Frontend: Choose **Next** (to request another user)
     else found no one
-        Database --> Server: Send error (no user ready)
         Server --> Frontend: Send error
         Frontend --> Frontend: Show error screen
         alt If want to quit
