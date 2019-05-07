@@ -55,3 +55,11 @@ Nội dung chat cũ sẽ bị huỷ
 ### Database diagram
 
 [Database](diagram/database/database.md)
+
+### Class diagram
+
+[Class](diagram/class/class.md)
+
+### Architecture diagram
+
+[Architecture](diagram/architecture/architecture.md)
