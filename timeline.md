@@ -8,8 +8,11 @@ Tuần 1:
     - [x] Database diagram
     - [x] Class diagram
     - [x] Architecture diagram
-- [ ] Tìm hiểu framework `gin`, `gorm`
-- [ ] Tìm hiểu CRUD database
+- [ ] Tìm hiểu framework golang
+    - [x] `gin`
+    - [ ] `gorm`
+    - [ ] `Gorilla WebSocket`
+- [x] Tìm hiểu CRUD database
 
 Tuần 2:
 
